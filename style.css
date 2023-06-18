@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body,html{
+    overflow-x:hidden ;
+}
+body{
+    font-family: 'poppins' sans-serif;
+}
+
+.logo{
+/* Logo */
+
+
+position: absolute;
+left: 7.17%;
+right: 80.96%;
+top: 7.78%;
+bottom: 85.74%;
+}
+.text-hero{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    z-index: 99;
+    color: #fff;
+}
+.text-hero p{
+padding: 1.5rem;
+left: 10%;
+}
+
+.btn-rounded-full{
+    padding: 15px 70px;
+    border-radius: 50px;
+    background-color: #fff;;
+}
+
+
+.isi{
+    line-height: 100px;
+}
+
+
+/* Frame 10 */
+
+
+/* Auto layout */
+.Frame10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 32px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 916px;
+    height: 1170px;
+    left: 418px;
+    top: 32px;
+    
+    background: #FFFFFF;
+    /* shadow */
+    
+    box-shadow: 2px 4px 56px rgba(10, 55, 130, 0.15);
+    border-radius: 24px;
+}
+/* Frame 9 */
+
+
+/* Auto layout */
+.Frame9{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px 0px 0px;
+gap: 32px;
+
+width: 852px;
+height: 1009px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.data{
+/* Data Pendaftar */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 410px;
+height: 985px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1
+}
+
+/* Upload File */
+
+
+.frame8{
+    /* Frame 8 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 410px;
+height: 937px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+}
+
+.file{
+/* Upload File */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 410px;
+height: 985px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+}
+
+.gelombang{
+/* Frame 11 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 20px 8px;
+gap: 16px;
+
+width: 410px;
+height: 56px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+/* Anda bisa langsung transfer ke Rekening Bank Mandiri 144-0000-1987-02 a/n. Insan Muda Berkarya */
+
+.rekeing {
+width: 50px;
+height: 50px;
+
+font-family: 'poopins';
+font-style: italic;
+font-weight: 1000;
+font-size: 18px;
+line-height: 21px;
+position: absolute;
+padding: 20px 20px 8px;
+
+color: #071D2C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0
+
+}
+
+/* Nama Siswa* */
+
+.nama{
+/* Input Form */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 20px 8px;
+gap: 16px;
+
+width: 410px;
+height: 71px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame9{
+/* Frame 9 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px 0px 0px;
+gap: 32px;
+
+width: 852px;
+height: 1009px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame4{
+/* Frame 4 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 20px 8px;
+gap: 8px;
+
+width: 410px;
+height: 71px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.email{
+    /* Input Form */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 20px 8px;
+gap: 16px;
+
+width: 410px;
+height: 71px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+.no{
+    /* Input Form */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 40px 8px;
+gap: 16px;
+
+width: 410px;
+height: 71px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame7{
+    /* Frame 7 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 410px;
+height: 937px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame3{
+    /* Frame 3 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 40px 40px 8px;
+gap: 10px;
+
+width: 410px;
+height: 123px;
+
+background: #FFFFFF;
+border: 1px solid #707070;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.ortu{
+    /* Input Form */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 20px 8px;
+gap: 16px;
+
+width: 410px;
+height: 71px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame10{
+/* Frame 10 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 32px;
+gap: 24px;
+
+position: absolute;
+width: 916px;
+height: 1170px;
+left: 418px;
+top: 32px;
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 2px 4px 56px rgba(10, 55, 130, 0.15);
+border-radius: 24px;
+}
+
+.frame12{
+    /* Frame 12 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 20px 8px;
+gap: 16px;
+
+width: 410px;
+height: 72px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+.bukti{
+    /* Frame 8 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 410px;
+height: 937px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+}
+
+.frame5{
+    /* Frame 5 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 56px;
+gap: 10px;
+
+width: 169px;
+height: 48px;
+
+background: #4CA3E1;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.radio{
+    /* Radio */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 197px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+.hero{
+position: absolute;
+width: 1490.08px;
+height: 742.35px;
+left: -61.74px;
+top: -48.15px;
+
+background: #4CA3E1;
+}
